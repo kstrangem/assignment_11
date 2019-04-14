@@ -1,5 +1,5 @@
 var vm = new Vue ({
-el:"#app"
+el:'#app'
 data: {
 	nameInput:"",
 	styleInput:"",
@@ -7,10 +7,10 @@ data: {
 	idInput:"",
 
 	desks: [
-		{name:"Acorn", style: "mini", length: 		"25 inches", id: 400},
-  		{name:"Gemini", style: "leaning", length: 		"75 inches", id:500},
-		{name:"Parsons", style: "standard", length: 		" 35 inches", id:30},
-		{name:"Audrey", style: "fixed", length: 		"75 inches", id:50}
+		{name:'Acorn', style: 'mini', length: '25 inches', id: 400},
+  		{name:'Gemini', style: 'leaning', length: '75 inches', id:500},
+		{name:'Parsons', style: 'standard', length: '35 inches', id:30},
+		{name:'Audrey', style: 'fixed', length: '75 inches', id:50}
 ]
 },
 
